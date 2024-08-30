@@ -131,3 +131,25 @@ The TCL commands are used to manage transactions in the database.
 COMMIT Command to save all the work you have already done in the database.
 ROLLBACK Command to restore a database to the last committed state.
 
+
+
+What are key constraints?
+In every table there should be one or more columns or fields that can be used to fetch data from tables.
+In other words, a primary key.
+The key constraint specifies that there should be a column, or columns, in a tablethat can be used to fetch data for any row.
+This key attribute or primary key should never be NULL or the same for two different rows of data.
+For example, in the student table I can use the student ID to fetch data for each of the students.
+No value of student ID is null, and it is unique for every row, hence it can be the key attribute.
+
+What are domain constraints?
+Domain constraints refer to the rules defined for the values that can be stored for a certain column.
+ For instance, you cannot store the home address of a student in the first name column.
+ Similarly, a contact number cannot exceed ten digits.
+
+What are referential integrity constraints?
+When a table is related to another table via a foreign key column,
+then the referenced column value must exist in the other table.
+This means, according to the student and department examples,
+that values should exist in the student ID column in the student table because the two tables are related via the student ID column.
+
+
