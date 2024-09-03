@@ -152,6 +152,4 @@ then the referenced column value must exist in the other table.
 This means, according to the student and department examples,
 that values should exist in the student ID column in the student table because the two tables are related via the student ID column.
 
-
-
-
+what is 
