@@ -152,4 +152,30 @@ then the referenced column value must exist in the other table.
 This means, according to the student and department examples,
 that values should exist in the student ID column in the student table because the two tables are related via the student ID column.
 
-what is 
+
+for creating table :
+
+CREATE TABLE customers
+   CREATE TABLE customers
+    (CustomerId INT, 
+    FirstName VARCHAR(40), 
+    LastName VARCHAR(20), 
+    Company VARCHAR(80), 
+    Address VARCHAR(70), 
+    City VARCHAR(40),
+    State VARCHAR(40), 
+    Country VARCHAR(40), 
+    PostalCode VARCHAR(10), 
+    Phone VARCHAR(24), 
+    Fax VARCHAR(24), 
+    Email VARCHAR(60), 
+    SupportRapid INT );
+
+
+INSERT INTO 'customers' ('customerID', 'customerName', 'customerAddress') VALUES
+(1, 'Jack', '115 Old street Belfast'),
+(2, 'James', '24 Carlson Rd London'),
+(4, 'Maria', '5 Fredrik Rd, Bedford'),
+(5, 'Jade', '10 Copland Ave Portsmouth '),
+(6, 'Yasmine', '15 Fredrik Rd, Bedford'),
+(3, 'Jimmy', '110 Copland Ave Portsmouth');
