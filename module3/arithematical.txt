@@ -1,1 +1,30 @@
-lknslndkjnc
+Using the addition operator:
+
+SELECT column_name1 + column_name2 FROM table_name;
+
+SELECT salary + allowance FROM employee;
+
+SELECT * FROM employee
+WHERE salary + allowance = 25000;
+
+SELECT column_name1 - column_name2 FROM table_name;
+
+SELECT salary - tax FROM employee;
+
+SELECT * FROM employee
+WHERE salary - tax = 50000;
+
+SELECT *
+FROM employee
+WHERE tax * 2 = 4000;
+
+SELECT allowance / salary * 100 FROM employee;
+
+
+SELECT column_name1 % column_name2 FROM table_name;
+
+SELECT hours % 2 FROM employee;
+
+SELECT * FROM employee
+WHERE hours % 2 = 0;
+
