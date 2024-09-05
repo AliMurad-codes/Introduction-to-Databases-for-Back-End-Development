@@ -33,3 +33,7 @@ Using DISTINCT with SQL aggregate functions:
 
 SELECT COUNT(DISTINCT country)
 FROM customers;
+
+
+
+
