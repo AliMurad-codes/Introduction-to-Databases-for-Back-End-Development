@@ -1,0 +1,35 @@
+The DISTINCT keyword:
+
+Using SELECT DISTINCT on a single column:
+
+SELECT BillingCountry
+FROM invoices
+ORDER BY BillingCountry;
+
+SELECT DISTINCT BillingCountry
+FROM invoices
+ORDER BY BillingCountry;
+
+
+Using SELECT DISTINCT on multiple columns:
+
+SELECT BillingCountry, BillingCity
+FROM invoices;
+
+
+SELECT DISTINCT BillingCountry, BillingCity
+FROM invoices
+ORDER BY BillingCountry, BillingCity;
+
+
+NULL values in a DISTINCT column:
+
+
+SELECT DISTINCT BillingCountry, BillingCity
+FROM invoices
+ORDER BY BillingCountry, BillingCity;
+
+Using DISTINCT with SQL aggregate functions:
+
+SELECT COUNT(DISTINCT country)
+FROM customers;
